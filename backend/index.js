@@ -63,4 +63,6 @@ app.post("/register", async (req, resp) => {
         resp.send("Something Went Wrong");
     }
 });
-app.listen(5000);
+
+let port=process.env.PORT;
+app.listen(port || 5000);
