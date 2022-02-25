@@ -7,7 +7,7 @@ function AccordionList() {
 
     const messageList=async()=>{
         try{
-            const response=await fetch('http://localhost:5000/messages');
+            const response=await fetch("http://localhost:5000/messages");
             setMessages(await response.json());
         }
         catch(err){
