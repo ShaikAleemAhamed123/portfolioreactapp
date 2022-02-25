@@ -64,5 +64,16 @@ app.post("/register", async (req, resp) => {
     }
 });
 
+app.get("/messages",async(req,res)=>{
+    User.find({},(err,foundUsers)=>{
+        if(err){
+            console.log(err);
+        }
+        else{
+            res.send(foundUsers);
+        }
+    })
+})
+
 let port=process.env.PORT;
 app.listen(port || 5000);
