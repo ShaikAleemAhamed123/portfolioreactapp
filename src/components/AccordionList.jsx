@@ -1,23 +1,20 @@
 import React, { useEffect, useState } from "react";
 import Accordion from "./Accordion";
+import axios from "axios";
 
 function AccordionList() {
 
     const[messages,setMessages]=useState([]);
 
-    const messageList=async()=>{
-        try{
-            const response=await fetch("https://fierce-sands-89394.herokuapp.com/messages");
-            setMessages(await response.json());
-        }
-        catch(err){
-            console.log(err);
-        }
-         
-    }
-
     useEffect(()=>{
-        messageList();
+        axios.get("https://fierce-sands-89394.herokuapp.com/messages")
+        .then((es)=>{
+            console.log(res);
+            setMessages(res.data);
+        })
+        .catch((err)=>{
+            console.log(err);
+        })
     },[]);
 
 
