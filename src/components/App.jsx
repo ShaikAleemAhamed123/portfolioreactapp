@@ -88,7 +88,9 @@ function App() {
           </div>
         } />
         <Route exact path="/messages" element={
-          <AccordionList/>
+          <div>
+          <h1 className="container text-center text-light">Messages</h1>
+          <AccordionList/></div>
         } />
       </Routes>
     </Router>

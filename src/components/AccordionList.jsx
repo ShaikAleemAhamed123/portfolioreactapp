@@ -22,7 +22,6 @@ function AccordionList() {
 
 
     return <div className="container mt-5 accordion" id="accordionFlushExample">
-    <h1 className="container text-center text-light">Messages</h1>
     {loading && <Loader/>}
         {messages.map((item, index) => {
             return <Accordion key={index} name={item.name} email={item.email} message={item.message} />
