@@ -8,7 +8,7 @@ function AccordionList() {
 
     useEffect(()=>{
         axios.get("https://fierce-sands-89394.herokuapp.com/messages")
-        .then((es)=>{
+        .then((res)=>{
             console.log(res);
             setMessages(res.data);
         })
