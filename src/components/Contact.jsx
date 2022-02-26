@@ -1,39 +1,47 @@
 import React,{useState} from "react";
+import axios from "axios";
 
 function Contact(){
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const[message,setMessage]=useState("");
-    const handleOnSubmit = async (e) => {
+    async function handleOnSubmit(e){
         e.preventDefault();
-        let result = await fetch(
-        'http://localhost:5000/register', {
-            method: "post",
-            body: JSON.stringify({ name, email, message }),
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        })
-        result = await result.json();
-        console.warn(result);
-        if (result) {
-            alert("Message Sent succesfully");
-            setEmail("");
-            setName("");
-            setMessage("");
+        const postData={
+            name:name,
+            email:email,
+            message:message
+        };
+        try{
+            const res=await axios
+        .post("https://fierce-sands-89394.herokuapp.com/register",postData)
+        .then((response)=>{
+            console.log(response);
+        });
+        alert("Message Sent Successfully !")
         }
+        catch(err){
+            alert("Something Went Wrong !")
+            console.log("What the hell "+err);
+        }
+         
+        // let result = await fetch(
+        // 'https://fierce-sands-89394.herokuapp.com/register', {
+        //     method: "post",
+        //     body: JSON.stringify({ name, email, message }),
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     }
+        // })
+        // result = await result.json();
+        // console.warn(result);
+        // if (result) {
+        //     alert("Message Sent succesfully");
+        //     setEmail("");
+        //     setName("");
+        //     setMessage("");
+        // }
     }
-
-      
-//<htmlForm action="">
-//     <input type="text" placeholder="name" 
-//     value={name} onChange={(e) => setName(e.target.value)} />
-//     <input type="email" placeholder="email" 
-//     value={email} onChange={(e) => setEmail(e.target.value)} />
-//     <button type="submit" 
-//     onClick={handleOnSubmit}>submit</button>
-// </htmlForm>
-
 
 
 return <form className="contact-form">
