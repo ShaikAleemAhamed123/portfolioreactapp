@@ -7,7 +7,7 @@ function AccordionList() {
     const[messages,setMessages]=useState([]);
 
     useEffect(()=>{
-        axios.get("https://fierce-sands-89394.herokuapp.com/messages")
+     axios.get("https://fierce-sands-89394.herokuapp.com/messages")
         .then((res)=>{
             console.log(res);
             setMessages(res.data);
