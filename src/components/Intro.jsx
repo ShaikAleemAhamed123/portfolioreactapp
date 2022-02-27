@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro() {
     return <div>
-        <section className="row introduction mt-4 ps-3 bg-image">
+        <section className="row introduction ps-3 bg-image">
 
         <div className="head col col-12 col-md-4 my-auto">
             Hi,Aleem Ahamed here..

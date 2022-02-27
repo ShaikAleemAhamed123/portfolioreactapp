@@ -59,6 +59,10 @@
     height: 2.75rem;
     width: 2.75rem;
   }
+
+  .introduction{
+    margin-top: 5rem;
+  }
   
   .description {
     line-height: 2rem;
