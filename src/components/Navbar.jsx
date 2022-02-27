@@ -1,7 +1,7 @@
 import React from "react";
 
 function Navbar(){
-    return    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    return    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div className="container-fluid">
     <a className="navbar-brand" href="#">Aleem's</a> 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"

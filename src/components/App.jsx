@@ -13,6 +13,7 @@ import ExperienceList from "./ExperienceList";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import AccordionList from "./AccordionList";
+import TopScrollBar from "./TopScrollBar";
 import {
   BrowserRouter as Router,
   Routes,
@@ -28,7 +29,10 @@ function App() {
       <Routes>
         <Route exact path="/" element={
           <div>
+
+            <TopScrollBar/> 
             <Navbar />
+            
 
             <Intro />
 
