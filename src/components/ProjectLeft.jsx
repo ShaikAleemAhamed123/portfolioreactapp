@@ -17,8 +17,6 @@ function ProjectLeft(props){
     </div>
 
 </div>
- 
-
 }
 
 export default ProjectLeft;
