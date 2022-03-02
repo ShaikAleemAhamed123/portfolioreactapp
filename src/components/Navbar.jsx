@@ -18,7 +18,7 @@ function Navbar(){
                     <a className="nav-link" href="#Education">Education</a>
                 </li>
                 <li className="nav-item me-4">
-                    <a target="_blank" className="nav-link"  href="#">Resume</a>
+                    <a  className="nav-link"  href="#">Resume</a>
                 </li>
                 <li className="nav-item me-4">
                     <a className="nav-link" href="#Projects">Projects</a>
