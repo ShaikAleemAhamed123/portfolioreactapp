@@ -14,6 +14,7 @@ import Contact from "./Contact";
 import Footer from "./Footer";
 import AccordionList from "./AccordionList";
 import TopScrollBar from "./TopScrollBar";
+import loader from "./Spinner.gif"
 import {
   BrowserRouter as Router,
   Routes,
@@ -30,10 +31,14 @@ function App() {
         <Route exact path="/" element={
           <div>
 
-            <TopScrollBar/> 
-            <Navbar />
-            
 
+          <div id="divloader" class="ShowLoader">
+          <img id="imgUpdateProgress" class="loaderIMG" src={loader} alt="Loading ..." title="Loading ..." />
+        </div>
+            <TopScrollBar />
+            <Navbar />
+
+            
             <Intro />
 
             <section className="row education mt-4 ">
@@ -93,8 +98,8 @@ function App() {
         } />
         <Route exact path="/messages" element={
           <div>
-          <h1 className="container text-center text-light mt-5">Messages</h1>
-          <AccordionList/></div>
+            <h1 className="container text-center text-light mt-5">Messages</h1>
+            <AccordionList /></div>
         } />
       </Routes>
     </Router>
