@@ -8,10 +8,6 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-$(document).ready(function () {
-  $("#divloader").addClass("HideLoader");
-});
-
 window.onscroll = function () {
   myFunction();
 };

@@ -30,11 +30,6 @@ function App() {
       <Routes>
         <Route exact path="/" element={
           <div>
-
-
-          <div id="divloader" class="ShowLoader">
-          <img id="imgUpdateProgress" class="loaderIMG" src={loader} alt="Loading ..." title="Loading ..." />
-        </div>
             <TopScrollBar />
             <Navbar />
 
