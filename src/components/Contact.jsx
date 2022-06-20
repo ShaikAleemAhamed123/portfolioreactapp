@@ -5,7 +5,7 @@ function Contact(){
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const[message,setMessage]=useState("");
-    const[status,setStatus]=useState("sending");
+    const[status,setStatus]=useState("sent");
     async function handleOnSubmit(e){
         setStatus("sending");
         e.preventDefault();
