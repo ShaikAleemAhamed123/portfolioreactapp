@@ -5,7 +5,9 @@ function Contact(){
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const[message,setMessage]=useState("");
+    const[status,setStatus]=useState("sending");
     async function handleOnSubmit(e){
+        setStatus("sending");
         e.preventDefault();
         const postData={
             name:name,
@@ -14,10 +16,11 @@ function Contact(){
         };
         try{
             const res=await axios
-        .post("https://fierce-sands-89394.herokuapp.com/register",postData)
+        .post("https://portfolioreactappbackend.herokuapp.com/register",postData)
         .then((response)=>{
             console.log(response);
         });
+        setStatus("sent");
         alert("Message Sent Successfully !")
         }
         catch(err){
@@ -60,7 +63,9 @@ return <form className="contact-form">
         <textarea className="text-area contact-input" rows="5" cols="60" placeholder="Enter Message here" 
         value={message} onChange={(e) => setMessage(e.target.value)} ></textarea>
     </div>
-    <div><button className="submit-button btn my-4" type="submit" onClick={handleOnSubmit} value="submit">Submit</button></div>
+    <div><button className="submit-button btn my-4" type="submit" onClick={handleOnSubmit} value="submit">{
+        status=="sending" ? "Sending...." : "Submit"
+    }</button></div>
 </form>
 }
 
