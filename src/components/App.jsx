@@ -15,6 +15,7 @@ import Footer from "./Footer";
 import AccordionList from "./AccordionList";
 import TopScrollBar from "./TopScrollBar";
 import loader from "./Spinner.gif"
+import Opentowork from "./Opentowork";
 import {
   BrowserRouter as Router,
   Routes,
@@ -47,7 +48,7 @@ function App() {
             <section className="row skills mt-4">
               <h3>SKILL-SET</h3>
               {SkillList.map((skill, index) => {
-                return <Skill key={index} title={skill.title} description={skill.description} />
+                return <Skill key={index} title={skill.title} description={skill.description} img={skill.img}/>
               })}
             </section>
             <div id="Projects"></div>
@@ -80,10 +81,15 @@ function App() {
 
             </section>
             <hr className="breakline mx-auto mt-5" />
-            <div id="Contact"></div>
+            <h3 className="openToWorkHeading" style={{color:"#69ff00"}}># Open To Work</h3>
+            <Opentowork/>
 
+            <hr className="breakline mx-auto mt-5" />
+            <div id="Contact"></div>
             <section className="contact">
               <h3>Contact Me....</h3>
+              <p className="text mb-5" style={{color:"#ff7c23c7"}}>Interested in working with me :) or wanna meet up for some chitchat? I love meeting and working with new people. Hit me up through the form below.</p>
+              
               <Contact />
             </section>
             <hr className="breakline mx-auto mt-5"></hr>

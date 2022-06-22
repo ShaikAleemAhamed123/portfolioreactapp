@@ -11,7 +11,7 @@ function Intro() {
         </div>
 
         <div className="col description   my-auto col-12 col-md-7">
-            Hello There, I am Aleem Ahamed, currently pursuing my computer Science and Engineering degree at NIT,Raipur. I am a tech enthusiast, keen in learning new technologies and frameworks. Loves working in web development projects. And most importantly I am not an expertise in particular frameWork something like that, you give me the challenge I will tackle it with required technologies, even if I don't know them (Obviously will learn it to tackle :). Eager in learning new algorithms, data structures to implement in competitive programming.
+            Hello There, I am Aleem Ahamed, currently pursuing my computer Science and Engineering degree at NIT,Raipur. I am a tech enthusiast, keen in learning new technologies and frameworks. Loves working in web development projects. And most importantly I enjoy working with ReactJS Framework. I am OPTIMISTIC and SELF-LEARNING, you give me the challenge I will tackle it with required technologies, even if I don't know them (Obviously will learn it to tackle :). I am an Intermediate level Competitive Coder and have a solid understanding of Data Structures and Algorithms.
         </div>
 
     </section>

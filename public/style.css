@@ -8,19 +8,42 @@
     background-color: rgb(0, 0, 0);
     overflow: hidden;
   }
+
   .contact .contact-form .text-area {
     border: 2px solid white;
     height: 7rem;
   }
 }
+
 ::selection {
   color: rgb(255, 255, 255);
-  background-color: rgb(255,0,0,1) !important;
+  background-color: rgb(255, 0, 0, 1) !important;
 }
 
 @media screen and (max-width: 992px) {
   .navbar {
     height: auto !important;
+  }
+  .Opentowork div p {
+    padding: 0 0;
+  }
+  .contact .text{
+    padding: 0 10%;
+    line-height: 2.5;
+    text-align: center;
+  }
+   
+}
+
+@media screen and (min-width: 1000px) {
+  .Opentowork div p {
+    padding: 0 20%;
+    line-height: 2.5;
+  }
+  .contact .text{
+    padding: 0 25%;
+    line-height: 2.5;
+    text-align: center;
   }
 }
 
@@ -40,13 +63,21 @@ body {
   /* overflow-x: hidden; */
 }
 
+  .resume-image {
+    max-height: 600px;
+    padding: 5px;
+    width: auto;
+    border: 3px solid red;
+    transition: 0.5s all ease-in-out;
+}
+
 .loaderIMG {
   padding: 10px;
   position: fixed;
   top: 45%;
   left: 45%;
   width: 100px;
-  height:100px;
+  height: 100px;
 }
 
 .HideLoader {
@@ -75,14 +106,14 @@ a {
 
 /* Buttom Hover Animation */
 
- 
+
 .btn {
   background-color: rgb(255, 0, 0);
   color: white;
   margin-bottom: 0.5rem;
   transition: 0.25s;
 }
- 
+
 
 .btn:hover {
   transform: translateY(-3px);
@@ -95,7 +126,7 @@ a {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
- 
+
 
 .btn-animated {
   animation: moveInBottom 5s ease-out;
@@ -104,15 +135,16 @@ a {
 
 @keyframes moveInBottom {
   0% {
-      opacity: 0;
-      transform: translateY(30px);
+    opacity: 0;
+    transform: translateY(30px);
   }
 
   100% {
-      opacity: 1;
-      transform: translateY(0px);
+    opacity: 1;
+    transform: translateY(0px);
   }
 }
+
 /* Buttom Hover Animation */
 /* .btn:hover {
   background-color: transparent !important;
@@ -174,6 +206,7 @@ a {
   text-align: center;
 }
 
+ 
 .edu {
   padding: 2% 0;
   margin-bottom: 2rem;
@@ -213,6 +246,7 @@ a {
   border: 3px solid red;
   transition: 0.5s all ease-in-out;
 }
+
 /* .project img:hover {
   transform: scale(1.15);
 } */
@@ -252,6 +286,7 @@ h3 {
 .skill-heading {
   font-size: 1.85rem;
   line-height: 35px;
+  margin-bottom: 0 !important;
 }
 
 .skill {
@@ -270,6 +305,12 @@ h2 {
   text-align: center;
 }
 
+
+.Opentowork {
+  padding: 0 10%;
+  text-align: center;
+}
+ 
 .instagram,
 .github,
 .email,
@@ -283,14 +324,12 @@ h2 {
   position: relative;
   background-clip: text;
   -webkit-background-clip: text;
-  background-image: linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+  background-image: linear-gradient(45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%);
   cursor: pointer;
   top: -5px;
 }
@@ -364,6 +403,7 @@ h2 {
 .footer_icons a {
   color: rgb(255, 255, 255);
 }
+
 .lottie-anim-1 {
   z-index: 1;
   position: absolute;
@@ -373,6 +413,7 @@ h2 {
   top: 1rem;
   left: 2rem;
 }
+
 .lottie-anim-2 {
   z-index: 1;
   position: absolute;
@@ -489,6 +530,7 @@ h2 {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
@@ -570,9 +612,11 @@ h2 {
   transform: translateY(150px);
   animation: come-in 1s ease forwards;
 }
+
 .come-in:nth-child(odd) {
   animation-duration: 1s;
 }
+
 .already-visible {
   transform: translateY(0);
   animation: none;
@@ -583,4 +627,5 @@ h2 {
     transform: translateY(0);
   }
 }
+
 /* Image Loading Animation */
