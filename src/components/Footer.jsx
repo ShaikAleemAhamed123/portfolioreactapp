@@ -11,7 +11,7 @@ function Footer(){
     </div>
 
     <div className="certify mb-5">
-        © Aleem Ahamed Shaik 2021
+        Made With 💚 By Aleem Ahamed Shaik
     </div>
 </div>
 }
