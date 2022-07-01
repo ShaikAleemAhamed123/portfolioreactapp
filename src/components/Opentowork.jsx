@@ -6,7 +6,7 @@ function Opentowork() {
 
     return <section className="Opentowork" id="download">
         <div className=" container inner">
-            <p className="text"><span className="bold" style={{color: "#ff7c23c7",weight:"bolder",fontSize:"1.5rem"}}>I am actively looking for summer internship opportunities.</span><br /><br />If you are hiring or willing to collaborate with me on any project, please keep a copy of my latest resume for reference and feel free to contact me through my mentioned Contact Number or any of my Social Media Handles.
+            <p className="text"><span className="bold" style={{color: "rgb(255 255 255 / 78%)",fontWeight:"bolder",fontSize:"1.5rem"}}>** I am actively looking for summer internship opportunities. **</span><br /><br />If you are hiring or willing to collaborate with me on any project, please keep a copy of my latest resume for reference and feel free to contact me through my mentioned Contact Number or any of my Social Media Handles.
             </p>
             <div>
                 <img className="img-fluid resume-image" src={resume} alt="" />

@@ -88,7 +88,7 @@ function App() {
             <div id="Contact"></div>
             <section className="contact">
               <h3>Contact Me....</h3>
-              <p className="text mb-5" style={{color:"#ff7c23c7"}}>Interested in working with me :) or wanna meet up for some chitchat? I love meeting and working with new people. Hit me up through the form below.</p>
+              <p className="text mb-5" style={{color:"rgb(184 184 184 / 78%)",fontWeight:"bolder"}}>Interested in working with me :) or wanna meet up for some chitchat? I love meeting and working with new people. Hit me up through the form below.</p>
               
               <Contact />
             </section>
