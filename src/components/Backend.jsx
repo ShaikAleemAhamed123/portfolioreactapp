@@ -13,7 +13,7 @@ function backend() {
                 <div className="flex-box my-5">
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Add</button></a>
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Update</button></a>
-                    <a href="http://localhost:5000/educations"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Show</button></a>
+                    <a href="https://portfolioreactappbackend.herokuapp.com/educations"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Show</button></a>
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Delete</button></a>
                 </div>
             </div>
@@ -35,7 +35,7 @@ function backend() {
                 <div className="flex-box my-5">
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Add</button></a>
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Update</button></a>
-                    <a href="http://localhost:5000/projects"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Show</button></a>
+                    <a href="https://portfolioreactappbackend.herokuapp.com/projects"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Show</button></a>
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Delete</button></a>
                 </div>
             </div>
@@ -46,7 +46,7 @@ function backend() {
                 <div className="flex-box my-5">
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Add</button></a>
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Update</button></a>
-                    <a href="http://localhost:5000/experiences"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Show</button></a>
+                    <a href="https://portfolioreactappbackend.herokuapp.com/experiences"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Show</button></a>
                     <a href="#"><button className=" btn  btn-md px-4 mx-2 mt-2 ">Delete</button></a>
                 </div>
             </div>

@@ -16,7 +16,7 @@ function Contact() {
         };
         try {
             const res = await axios
-                .post("http://localhost:5000/messages", postData)
+                .post("https://portfolioreactappbackend.herokuapp.com/messages", postData)
                 .then((response) => {
                     console.log(response);
                 });

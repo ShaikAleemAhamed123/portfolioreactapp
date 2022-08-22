@@ -34,7 +34,7 @@ function App() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:5000/skills")
+    axios.get("https://portfolioreactappbackend.herokuapp.com/skills")
       .then((res) => {
         console.log(res);
         setSkills(res.data);
@@ -43,7 +43,7 @@ function App() {
         console.log(err);
       });
 
-    axios.get("http://localhost:5000/educations")
+    axios.get("https://portfolioreactappbackend.herokuapp.com/educations")
       .then((res) => {
         console.log(res);
         setEducations(res.data);
@@ -52,7 +52,7 @@ function App() {
         console.log(err);
       });
 
-    axios.get("http://localhost:5000/projects")
+    axios.get("https://portfolioreactappbackend.herokuapp.com/projects")
       .then((res) => {
         console.log(res);
         setProjects(res.data);
@@ -61,7 +61,7 @@ function App() {
         console.log(err);
       });
 
-    axios.get("http://localhost:5000/experiences")
+    axios.get("https://portfolioreactappbackend.herokuapp.com/experiences")
       .then((res) => {
         console.log(res);
         setExperiences(res.data);
