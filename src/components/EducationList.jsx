@@ -1,22 +1,22 @@
 
 const EducationList = [
     {
-        institution: "National Institute of Technology, Raipur.",
-        course: "B.Tech CSE (2020-2024)",
+        title: "National Institute of Technology, Raipur.",
+        degree: "B.Tech CSE (2020-2024)",
         grade: "CGPA: 9.37",
-        icon: "fa-user-graduate"
+        image: "fa-user-graduate"
     },
     {
-        institution: "FIITJEE Junior College.",
-        course: "10+2 (PMC) (2018-2020)",
+        title: "FIITJEE Junior College.",
+        degree: "10+2 (PMC) (2018-2020)",
         grade: "CGPA: 10",
-        icon: "fa-university"
+        image: "fa-university"
     },
     {
-        institution: "Narayana High School.",
-        course: "VIII -X (PMC) (2015-2018)",
+        title: "Narayana High School.",
+        degree: "VIII -X (PMC) (2015-2018)",
         grade: "CGPA: 10",
-        icon: "fa-chalkboard-teacher"
+        image: "fa-chalkboard-teacher"
     }
 ]
 
