@@ -9,7 +9,7 @@ function AccordionList() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        axios.get("https://portfolioreactappbackend.herokuapp.com/messages")
+        axios.get("https://portfolioreactapp-backend.onrender.com/messages")
             .then((res) => {
                 console.log(res);
                 setMessages(res.data);

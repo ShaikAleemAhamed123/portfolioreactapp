@@ -34,7 +34,7 @@ function App() {
 
 
   // useEffect(() => {
-  //   axios.get("https://portfolioreactappbackend.herokuapp.com/skills")
+  //   axios.get("https://portfolioreactapp-backend.onrender.com/skills")
   //     .then((res) => {
   //       console.log(res);
   //       setSkills(res.data);
@@ -43,7 +43,7 @@ function App() {
   //       console.log(err);
   //     });
 
-  //   axios.get("https://portfolioreactappbackend.herokuapp.com/educations")
+  //   axios.get("https://portfolioreactapp-backend.onrender.com/educations")
   //     .then((res) => {
   //       console.log(res);
   //       setEducations(res.data);
@@ -52,7 +52,7 @@ function App() {
   //       console.log(err);
   //     });
 
-  //   axios.get("https://portfolioreactappbackend.herokuapp.com/projects")
+  //   axios.get("https://portfolioreactapp-backend.onrender.com/projects")
   //     .then((res) => {
   //       console.log(res);
   //       setProjects(res.data);
@@ -61,7 +61,7 @@ function App() {
   //       console.log(err);
   //     });
 
-  //   axios.get("https://portfolioreactappbackend.herokuapp.com/experiences")
+  //   axios.get("https://portfolioreactapp-backend.onrender.com/experiences")
   //     .then((res) => {
   //       console.log(res);
   //       setExperiences(res.data);
