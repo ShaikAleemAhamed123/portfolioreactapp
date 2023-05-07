@@ -16,7 +16,7 @@ function Contact() {
         };
         try {
             const res = await axios
-                .post("https://portfolioreactappbackend.herokuapp.com/messages", postData)
+                .post("https://portfolioreactapp-backend.onrender.com/messages", postData)
                 .then((response) => {
                     console.log(response);
                 });
@@ -29,7 +29,7 @@ function Contact() {
 
         }
         catch (err) {
-            alert("Something Went Wrong while posting Message !")
+            alert("Something Went Wrong while posting Message. Error : " + err)
             console.log("What the hell " + err);
         }
 

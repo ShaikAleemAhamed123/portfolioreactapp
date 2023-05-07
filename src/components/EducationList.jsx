@@ -3,7 +3,7 @@ const EducationList = [
     {
         title: "National Institute of Technology, Raipur.",
         degree: "B.Tech CSE (2020-2024)",
-        grade: "CGPA: 9.37",
+        grade: "CGPA: 9.65 (Till 6th Semester)",
         image: "fa-user-graduate"
     },
     {
