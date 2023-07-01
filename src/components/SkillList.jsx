@@ -4,6 +4,8 @@ import github from "../images/github.png";
 import cpp from "../images/cpp.jpg"
 import java from "../images/java.png"
 import unix from "../images/unix.png"
+import spring from "../images/spring.png"
+import springboot from "../images/springboot.png"
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
@@ -32,6 +34,16 @@ const SkillList = [
         title: "UNIX Command Line",
         image: unix,
         description: "I use Command line to easily perform complex tasks of setting up servers and linking database using just few lines of command.Being a part of our curriculum, I can work with Unix command line to a good extent."
+    },
+    {
+        title: "Spring Framework",
+        image: spring,
+        description: "I can make scalable java web applications using frameowrk. I can work with all essential spring libraries related to databases (JDBC), Security, REST, Testing(JUnit) etc."
+    },
+    {
+        title: "Springboot",
+        image: springboot,
+        description: "I use springboot to make secure REST APIs with ease. I make springboot to make my custom starters and use them in my projects."
     },
     {
         title: "Git Version Control System",
