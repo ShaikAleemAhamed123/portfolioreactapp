@@ -1,6 +1,6 @@
 import React from "react";
 import Spinner from './Spinner.gif'
-import resume from "../images/resume.jpg"
+import resume from "../images/resume.png"
 
 function Opentowork() {
 
