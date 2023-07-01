@@ -9,7 +9,7 @@ const EducationList = [
     {
         title: "FIITJEE Junior College.",
         degree: "10+2 (PMC) (2018-2020)",
-        grade: "CGPA: 10",
+        grade: "Percentage: 97.3 %",
         image: "fa-university"
     },
     {
