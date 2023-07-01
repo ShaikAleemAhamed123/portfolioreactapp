@@ -4,10 +4,8 @@ import github from "../images/github.png";
 import cpp from "../images/cpp.jpg"
 import java from "../images/java.png"
 import unix from "../images/unix.png"
-import spring from "../images/spring.png"
+import spring from "../images/spring.webp"
 import springboot from "../images/springboot.png"
-import axios from "axios";
-import React, { useEffect, useState } from "react";
 
 const SkillList = [
     {
