@@ -4,7 +4,7 @@ import github from "../images/github.png";
 import cpp from "../images/cpp.jpg"
 import java from "../images/java.png"
 import unix from "../images/unix.png"
-import spring from "../images/spring.webp"
+import spring from "../images/spring.png"
 import springboot from "../images/springboot.png"
 
 const SkillList = [
