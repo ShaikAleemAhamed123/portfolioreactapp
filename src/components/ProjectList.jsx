@@ -1,5 +1,3 @@
-import React from "react";
-import ProjectImages from "./ProjectImages";
 import textUtils from "../images/textUtils.png"
 import newsApp from "../images/newsApp.png";
 import onlineLibrary from "../images/onlineLibrary.png";
@@ -28,7 +26,7 @@ const ProjectList = [
     {
         key: 2,
         title: "Text Utilities React App",
-        description: "This is a text Utilities app which can be used to format our text such as Capitalising letters, converting letters to lower case, Removing extra spaces (or trailing and leading spaces). Along with formatting this app shows the <strong>Count of Words, characters and estimated Reading Time </strong> of the entered text.",
+        description: "This is a text Utilities app which can be used to format our text such as Capitalising letters, converting letters to lower case, Removing extra spaces (or trailing and leading spaces). Along with formatting this app shows the Count of Words, characters and estimated Reading Time of the entered text.",
         tech: "Tech Stack Used: ReactJS, Bootstrap, NodeJS",
         image: textUtils,
         code: "https://github.com/ShaikAleemAhamed123/textUtils",
