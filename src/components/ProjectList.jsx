@@ -2,6 +2,7 @@ import textUtils from "../images/textUtils.png"
 import newsApp from "../images/newsApp.png";
 import onlineLibrary from "../images/onlineLibrary.png";
 import portfolio from "../images/portfolio.png"
+import utility_master from "../images/utility_master.png"
 
 const ProjectList = [
     {
@@ -15,6 +16,15 @@ const ProjectList = [
     },
     {
         key: 1,
+        title: "Splitwise Application",
+        description: "I orchestrated the development of a robust financial management platform reminiscent of Splitwise, employing the scalability of Spring Boot for backend prowess. Teaming up with a frontend collaborator, we seamlessly integrated ReactJS to deliver a highly performant and user-centric solution.",
+        tech: "Tech Stack Used: Springboot, ReactJS, Postgresql, ExpressJS, NodeJS, Docker",
+        image: utility_master,
+        code: "https://github.com/ShaikAleemAhamed123/utility_master",
+        project: "https://utility-master.netlify.app/"
+    },
+    {
+        key: 2,
         title: "News App - React App",
         description: "This is a real-time news app which fetches news from newsAPI and displays news. This app contains various categories of news which can be chosen and it displays the news related to it.This app is built using ReactJS technology using newsAPI as API to provide real-time news for the app.",
         tech: "Tech Stack Used: ReactJS, newsAPI, NodeJS, ExpressJS, BootStrap",
@@ -24,7 +34,7 @@ const ProjectList = [
 
     },
     {
-        key: 2,
+        key: 3,
         title: "Text Utilities React App",
         description: "This is a text Utilities app which can be used to format our text such as Capitalising letters, converting letters to lower case, Removing extra spaces (or trailing and leading spaces). Along with formatting this app shows the Count of Words, characters and estimated Reading Time of the entered text.",
         tech: "Tech Stack Used: ReactJS, Bootstrap, NodeJS",
@@ -33,7 +43,7 @@ const ProjectList = [
         project: "https://textutils-git.netlify.app"
     },
     {
-        key: 3,
+        key: 4,
         title: "Online Library Management",
         description: "This project is made as a part of our Univeristy Term project.This Project reflects the skeleton structure of how an online library is managed. This is built Using some of the best features of JAVA OOPs such as INHERITANCE, INTERFACE, CLASSES, Static Keywords. Data Structures such as ArrayList, List are also used to make the Project more Real.",
         tech: "Tech Stack Used: Java",

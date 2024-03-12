@@ -6,6 +6,8 @@ import java from "../images/java.png"
 import unix from "../images/unix.png"
 import spring from "../images/spring.png"
 import springboot from "../images/springboot.png"
+import jenkins from "../images/jenkins.png"
+import docker from "../images/docker.png"
 
 const SkillList = [
     {
@@ -48,6 +50,16 @@ const SkillList = [
         image: github,
         description: "I use GIT for version control in my console to maintain and keep my project's previous versions safe and secure. Also use GitHub for open source collaboration."
     },
+    {
+        title: "Docker",
+        image: docker,
+        description: "I am an intermediate developer with a solid grasp of Docker, proficient in leveraging containerization to enhance development workflows and optimize application deployment strategies."
+    },
+    {
+        title: "Jenkins",
+        image: jenkins,
+        description: "As a developer with adeptness in Jenkins, I harness its power to orchestrate seamless automation, facilitating the creation of robust continuous integration and deployment pipelines, ensuring efficient software delivery."
+    }
 ]
 
 export default SkillList;
