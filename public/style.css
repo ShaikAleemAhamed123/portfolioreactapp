@@ -1,3 +1,6 @@
+body{
+  overflow: hidden;
+}
 @media screen and (min-width: 800px) {
   .contact .contact-form .contact-input {
     width: 50vw;
