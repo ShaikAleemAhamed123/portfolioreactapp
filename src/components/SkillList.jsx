@@ -8,6 +8,7 @@ import spring from "../images/spring.png"
 import springboot from "../images/springboot.png"
 import jenkins from "../images/jenkins.png"
 import docker from "../images/docker.png"
+import tailwindcss from "../images/tailwindcss.png"
 
 const SkillList = [
     {
@@ -44,6 +45,11 @@ const SkillList = [
         title: "Springboot",
         image: springboot,
         description: "I use springboot to make secure REST APIs with ease. I make springboot to make my custom starters and use them in my projects."
+    },
+    {
+        title: "Tailwind CSS",
+        image: tailwindcss,
+        description: "As a developer skilled in Tailwind CSS, I use its utility-first approach to create responsive, modern interfaces quickly and efficiently, ensuring consistent styles and improved user experiences."
     },
     {
         title: "Git Version Control System",
