@@ -7,7 +7,7 @@ function Intro() {
         <section className="row introduction ps-3 bg-image">
 
         <div className="head col col-12 col-md-4 my-auto">
-            Hi,Aleem Ahamed Shaik here....
+            Hi,Aleem Ahamed Shaik here..
         </div>
 
         <div className="col description   my-auto col-12 col-md-7">
