@@ -1,0 +1,26 @@
+steps:
+  # Install Node.js dependencies
+  - name: 'node:22'
+    entrypoint: 'npm'
+    args: ['install']
+
+  # Build the React app
+  - name: 'node:22'
+    entrypoint: 'npm'
+    args: ['run', 'build']
+
+  # Deploy to App Engine
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'app'
+      - 'deploy'
+      - 'app.yaml'
+      - '--project=$PROJECT_ID'
+      - '--quiet'
+
+# Substitutions to replace variables
+substitutions:
+  _PROJECT_ID: 'aleemahamedsportfolio'
+
+# Timeout for the build
+timeout: '900s'
