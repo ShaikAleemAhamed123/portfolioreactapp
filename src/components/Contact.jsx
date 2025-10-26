@@ -26,6 +26,9 @@ function Contact() {
             setMessage("");
             setStatus("sent");
             alert("Message Sent Successfully !")
+            const automated_email_response = await axios.post("https://splendid-ladybug-13.hooks.n8n.cloud/webhook/ping-test", postData).then(response => {
+                console.log(response)
+            })
 
         }
         catch (err) {
